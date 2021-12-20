@@ -20,6 +20,21 @@ const routes = [
     name: 'Login',
     component: () => import('../views/Login.vue'),
   },
+  {
+    path: '/customers',
+    name: 'Customers',
+    component: () => import('../views/Customers.vue'),
+  },
+  {
+    path: '/couriers',
+    name: 'Couriers',
+    component: () => import('../views/Couriers.vue'),
+  },
+  {
+    path: '/orders',
+    name: 'Orders',
+    component: () => import('../views/Orders.vue'),
+  }
 ];
 
 const router = new VueRouter({

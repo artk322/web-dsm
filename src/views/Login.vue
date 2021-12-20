@@ -2,7 +2,7 @@
   <div class="login-form">
     <v-sheet class="login-form__container">
       <form @submit.prevent="submit">
-        <h3 class="login-form__title">Welcome To Cashier</h3>
+        <h3 class="login-form__title">Welcome To DSM</h3>
         <v-text-field
           v-model="mobile"
           :error-messages="mobileErrors"
